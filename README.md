@@ -37,6 +37,12 @@ The notebook can be found [here](EnergyConsumptionForecast.ipynb). The notebook 
     - Predicting the future
 - Saving and loading the model
 
+## Other methods
+Despite having tried XGBoost, other methods could be tried (I will soon :)):
+- LSTM model. Check out: [TensorFlow-Time-Series-Examples](https://github.com/hzy46/TensorFlow-Time-Series-Examples/blob/master/train_lstm.py)
+- (S)ARIMA models. Check out an example using the `statsmodels` Python library [here](https://www.kaggle.com/code/mariavirginiaforcone/power-consumption-forecasting-with-sarima-tbats)
++ extra: interesting paper by Dubey et al.: [Study and analysis of SARIMA and LSTM in forecasting time series data](https://www.sciencedirect.com/science/article/pii/S2213138821004847?casa_token=aX5EMq_LZqMAAAAA:Qgjd4Ei4VvC6ZzO-jm-75AbzgaCN1EGEb1xu7WxOmz2wvBSPgQQW0ip4v7rucViyi51Bf_N_lu0)
+
 ## References
 
 * [XGBoost Documentation](https://xgboost.readthedocs.io/en/latest/)
